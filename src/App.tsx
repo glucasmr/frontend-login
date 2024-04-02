@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './App.css';
 
 function App() {
@@ -14,13 +13,12 @@ function App() {
       </div>
 
       <div className="w-1/3 h-full bg-white flex flex-col p-10 justify-between">
-        <h1 className="font-bold">Boas vindas!<FontAwesomeIcon icon={faEnvelope} /></h1>
+        <h1 className="font-bold">Boas vindas!</h1>
         <p>Entre utilizando uma das opções abaixo</p>
 
 
         <div className="w-full flex flex-col">
           <h3 className="text-2xl font-semibold mb-4">Login</h3>
-          <FontAwesomeIcon icon="fa-brands fa-facebook" />
         </div>
 
         <div className="w-full flex items-center justify-center">
