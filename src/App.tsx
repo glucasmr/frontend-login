@@ -7,6 +7,7 @@ import twitterLogo from './assets/Icons/TwitterSmallLogo.svg';
 import enter from './assets/Icons/Enter.svg';
 import user from './assets/Icons/User.svg';
 import lock from './assets/Icons/Lock.svg';
+import banner from './assets/Banner.png';
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
           <h1 className="text-xl font-bold text-white mb-2">Plataforma de cursos completa</h1>
           <p className="font-semibold text-neutral-600 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates placeat esse nihil commodi illo quaerat id consequatur ad harum rem laudantium minima hic, ducimus voluptate mollitia alias non dolore vel.</p>
         </div>
-        <img src="../public/Banner.png" className="w-full h-full object-cover" />
+        <img src={banner} className="w-full h-full object-cover" />
       </div>
 
       <div className="w-1/3 h-full bg-white flex flex-col px-8 py-2 justify-between">
