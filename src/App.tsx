@@ -13,12 +13,12 @@ function App() {
 
   return (
     <div className="w-full h-screen flex items-start bg-white">
-      <div className="relative w-2/3 h-full flex flex-col bg-gradient-bottom">
-        <div className="absolute bottom-[15%] left-[5%] flex flex-col">
+      <div className="relative w-2/3 h-full flex flex-col bg-cover" style={{ backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 1) 0%, transparent 100%),url(${banner})` }}>
+        <div className="absolute bottom-[15%] left-[5%] flex flex-col px-3">
           <h1 className="text-xl font-bold text-white mb-2">Plataforma de cursos completa</h1>
           <p className="font-semibold text-neutral-600 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates placeat esse nihil commodi illo quaerat id consequatur ad harum rem laudantium minima hic, ducimus voluptate mollitia alias non dolore vel.</p>
         </div>
-        <img src={banner} className="w-full h-full object-cover" />
+        {/* <img src={banner} className="w-full h-full" /> */}
       </div>
 
       <div className="w-1/3 h-full bg-white flex flex-col px-8 py-2 justify-between">
@@ -82,12 +82,12 @@ function App() {
 
         </div>
 
-        <button className="bg-blue-500 w-full text-white py-2 rounded-md mt-4 flex justify-center items-center">
+        <button className="bg-blue-600 w-full text-white py-2 rounded-md mt-4 flex justify-center items-center">
           <img src={enter} className="mr-2" />Entrar
         </button>
 
         <div className="w-full flex items-center justify-center text-sm">
-          <p>Esqueceu sua senha? <a className="text-blue-500" href="#">Recuperar senha</a></p>
+          <p className="text-neutral-500">Esqueceu sua senha? <a className="text-blue-500" href="#">Recuperar senha</a></p>
         </div>
 
       </div>
