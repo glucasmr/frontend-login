@@ -14,17 +14,17 @@ function App() {
   return (
     <div className="w-full h-screen flex items-start bg-white">
       <div className="relative w-2/3 h-full flex flex-col bg-cover" style={{ backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 1) 0%, transparent 100%),url(${banner})` }}>
-        <div className="absolute bottom-[15%] left-[5%] flex flex-col px-3">
+        <div className="absolute bottom-[15%] px-12 flex flex-col">
+          <p className="w-16 rounded-full bg-blue-600 text-white text-sm font-thin p-1 text-center my-4">Cursos</p>
           <h1 className="text-xl font-bold text-white mb-2">Plataforma de cursos completa</h1>
-          <p className="font-semibold text-neutral-600 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates placeat esse nihil commodi illo quaerat id consequatur ad harum rem laudantium minima hic, ducimus voluptate mollitia alias non dolore vel.</p>
+          <p className="font-extralight text-neutral-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates placeat esse nihil commodi illo quaerat id consequatur ad harum rem laudantium minima hic, ducimus voluptate mollitia alias non dolore vel.</p>
         </div>
-        {/* <img src={banner} className="w-full h-full" /> */}
       </div>
 
       <div className="w-1/3 h-full bg-white flex flex-col px-8 py-2 justify-between">
         <div className="w-full flex items-center justify-between">
           <img src={logo} className="size-28" />
-          <a className="text-blue-500 ml-4 font-semibold" href="#">Criar Conta</a>
+          <a className="text-blue-500 ml-4 font-medium" href="#">Criar Conta</a>
         </div>
 
         <div>
@@ -73,8 +73,8 @@ function App() {
             />
           </div>
         </div>
-        <div className="w-full flex items-start space-x-2">
-          <input type="checkbox" className="mt-2" />
+        <div className="w-full flex items-center space-x-2 text-sm">
+          <input type="checkbox" />
           <label>Manter conectado</label>
         </div>
 
