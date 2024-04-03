@@ -21,7 +21,7 @@ function App() {
         </div>
       </div>
 
-      <div className="w-1/3 h-full bg-white flex flex-col px-8 py-2 justify-between">
+      <div className="w-1/3 h-full bg-white flex flex-col px-6 py-2 justify-between">
         <div className="w-full flex items-center justify-between">
           <img src={logo} className="size-28" />
           <a className="text-blue-500 ml-4 font-medium" href="#">Criar Conta</a>
@@ -60,7 +60,7 @@ function App() {
           </div>
         </div>
 
-        <div className="">
+        <div>
           <label className="block text-black text-sm">Senha</label>
           <div className="mt-2 relative">
             <span className="absolute inset-y-0 left-0 flex items-center pl-3">
@@ -78,11 +78,7 @@ function App() {
           <label>Manter conectado</label>
         </div>
 
-        <div>
-
-        </div>
-
-        <button className="bg-blue-600 w-full text-white py-2 rounded-md mt-4 flex justify-center items-center">
+        <button className="bg-blue-600 w-full text-white py-2 rounded-md mt-2 flex justify-center items-center">
           <img src={enter} className="mr-2" />Entrar
         </button>
 
